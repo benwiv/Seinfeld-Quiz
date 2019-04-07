@@ -4,13 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
   <title>Seinfeld Quiz</title>
 </head>
 <body>
   <h1>seinfeld quiz</h1>
   
   <section>
-    <p></p>
+    <form>
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="input-name">
+      </div>
+      <div class="form-group">
+        <label for="reserve-phone">Phone Number</label>
+        <input type="text" id="input-phone">
+      </div>
+      <div class="form-group">
+        <label for="reserve-email">Email</label>
+        <input type="text" id="reserve-email">
+      </div>
+      <div class="form-group">
+        <label for="reserve-unique-id">Unique ID</label>
+        <input type="text" id="reserve-unique-id">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
   </section>    
 </body>
 </html>
