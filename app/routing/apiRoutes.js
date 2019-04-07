@@ -1,7 +1,7 @@
 const characterData = require("../app/data/characters.js");
 
 module.exports = function(app){
-  app.get("/api/characters", function () {
+  app.get("/characters", function () {
     res.json(characterTable)
   })
 }
